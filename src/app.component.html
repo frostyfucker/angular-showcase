@@ -1,0 +1,35 @@
+
+<div class="relative min-h-screen w-full overflow-hidden bg-slate-900 text-slate-200">
+  <div class="absolute inset-0 z-0 animate-aurora bg-[radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+  
+  <main class="relative z-10 p-4 sm:p-6 lg:p-8">
+    <header class="text-center mb-8 md:mb-12">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white">
+        Angular Showcase
+      </h1>
+      <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">
+        A demonstration of modern Angular features, from signals to AI integration.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+      
+      <div class="lg:col-span-1">
+        <app-interactive-profile></app-interactive-profile>
+      </div>
+      
+      <div class="lg:col-span-1">
+        <app-todo-list></app-todo-list>
+      </div>
+
+      <div class="lg:col-span-3">
+        <app-ai-idea-generator></app-ai-idea-generator>
+      </div>
+
+    </div>
+
+    <footer class="text-center mt-12 text-slate-500">
+      <p>Built with Angular, Tailwind CSS, and the Gemini API.</p>
+    </footer>
+  </main>
+</div>
